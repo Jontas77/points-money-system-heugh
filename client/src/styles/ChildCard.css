@@ -1,0 +1,68 @@
+.child-card {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  color: #000;
+  cursor: pointer;
+  width: 300px;
+  transition: transform 0.2s;
+  box-sizing: border-box;
+}
+
+.child-card:hover {
+  transform: scale(1.02);
+}
+
+.child-card h2 {
+  margin: 0 0 8px 0;
+}
+
+.child-card p {
+  margin: 4px 0;
+}
+
+.child-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.child-card li {
+  margin: 4px 0;
+}
+
+.child-card input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.child-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.child-card button:hover {
+  background-color: #0056b3;
+}
+
+.task-form {
+    margin-bottom: 16px;
+}
+
+/* Media Queries for larger screens */
+@media (min-width: 600px) {
+  .child-card {
+    max-width: 400px;
+  }
+}
